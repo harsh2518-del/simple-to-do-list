@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 197, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/2216163156/photo/technology-background-with-flowing-lines-and-light-particles.webp?a=1&b=1&s=612x612&w=0&k=20&c=LneYMRiTqFAAc_GJckMl8CFzSsUiMFvO03ZQv-owxb0=");
+    background-size: cover;
+}
+
+.main {
+    margin-top: 85px;
+    width: 24vw;
+    height: 77vh;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 6px;
+    background-image: url('https://media.istockphoto.com/id/2163768360/photo/gold-blurred-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=JMcxrimtPRH6WVjUfJmjCivlqEv6Rt4kO_RkyoI5VB8=');
+    background-size: cover;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.one input {
+    width: 83%;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    background-color: lightsteelblue;
+    padding: 9px;
+}
+
+.one button {
+    width: 57px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: coral;
+    font-size: 19px;
+    font-weight: 550;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.task label {
+    font-size: 15px;
+    font-weight: 600;
+    width: 90%;
+    color: red;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input:checked+label {
+    text-decoration: line-through;
+    color: green;
+}
+
+.two {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.task {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-left: 22%;
+    cursor: pointer;
+    position: fixed;
+    
+}
